@@ -15,15 +15,6 @@ export default function Login() {
                     <input type="password" name="senha" id="c-senha"/> <br/>
                     </fieldset>
                 </form>
-        
-                <div className="espacamento">
-                    <a to="#">Esqueceu a senha?</a>
-        
-                    <div className="cadastro">
-                    <p>Não tem cadastro?</p>
-                    <a to="#"> Cadastre-se</a>
-                    </div>
-                </div>
             </div>
         </div>
     )

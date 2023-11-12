@@ -1,0 +1,214 @@
+{
+    "usuarios": [
+        {
+            "id": 1,
+            "nome": "Ana Laura Juarez Zerlin",
+            "senha": "98065",
+            "pontos": 933
+        },
+        {
+            "id": 2,
+            "nome": "Bianca Carvalho Dancs Firsoff",
+            "senha": "551645",
+            "pontos": 328
+        },
+        {
+            "id": 3,
+            "nome": "Gabriel Machado Carrara Pimentel",
+            "senha": "99880",
+            "pontos": 555
+        },
+        {
+            "id": 4,
+            "nome": "Hellen Ramos Gonçalves Assis",
+            "senha": "98284",
+            "pontos": 612
+        },
+        {
+            "id": 5,
+            "nome": "Nicholas Marquez",
+            "senha": "eu,",
+            "pontos": 603
+        },
+        {
+            "id": 6,
+            "nome": "Candice Yates",
+            "senha": "euismod mauris",
+            "pontos": 309
+        },
+        {
+            "id": 7,
+            "nome": "Ina Sims",
+            "senha": "ipsum.",
+            "pontos": 84
+        },
+        {
+            "id": 8,
+            "nome": "Nathan Ramos",
+            "senha": "massa. Integer",
+            "pontos": 887
+        },
+        {
+            "id": 9,
+            "nome": "Joshua Riggs",
+            "senha": "neque",
+            "pontos": 639
+        },
+        {
+            "id": 10,
+            "nome": "Tad Nicholson",
+            "senha": "diam lorem,",
+            "pontos": 49
+        },
+        {
+            "id": 11,
+            "nome": "Kameko Kirk",
+            "senha": "urna",
+            "pontos": 104
+        },
+        {
+            "id": 12,
+            "nome": "Jescie Hudson",
+            "senha": "mi",
+            "pontos": 777
+        },
+        {
+            "id": 13,
+            "nome": "Steven Luna",
+            "senha": "molestie in,",
+            "pontos": 766
+        },
+        {
+            "id": 14,
+            "nome": "Ariel Fuentes",
+            "senha": "Aliquam erat",
+            "pontos": 986
+        },
+        {
+            "id": 15,
+            "nome": "Oleg Mitchell",
+            "senha": "diam luctus",
+            "pontos": 464
+        },
+        {
+            "id": 16,
+            "nome": "Britanni Burt",
+            "senha": "amet,",
+            "pontos": 73
+        },
+        {
+            "id": 17,
+            "nome": "Beau Shepard",
+            "senha": "dui, in",
+            "pontos": 609
+        },
+        {
+            "id": 18,
+            "nome": "Francis Vazquez",
+            "senha": "ridiculus mus.",
+            "pontos": 29
+        },
+        {
+            "id": 19,
+            "nome": "Cheyenne Mccormick",
+            "senha": "penatibus et",
+            "pontos": 477
+        },
+        {
+            "id": 20,
+            "nome": "Caryn Kaufman",
+            "senha": "cursus",
+            "pontos": 592
+        },
+        {
+            "id": 21,
+            "nome": "Aurora Todd",
+            "senha": "nibh",
+            "pontos": 767
+        },
+        {
+            "id": 22,
+            "nome": "Anjolie Flores",
+            "senha": "eu tellus",
+            "pontos": 716
+        },
+        {
+            "id": 23,
+            "nome": "Kasper Wolf",
+            "senha": "risus. Donec",
+            "pontos": 243
+        },
+        {
+            "id": 24,
+            "nome": "Harding Battle",
+            "senha": "Cras",
+            "pontos": 117
+        },
+        {
+            "id": 25,
+            "nome": "Kieran Preston",
+            "senha": "nisl sem,",
+            "pontos": 473
+        },
+        {
+            "id": 26,
+            "nome": "Jordan Soto",
+            "senha": "est, congue",
+            "pontos": 834
+        },
+        {
+            "id": 27,
+            "nome": "Elaine Dudley",
+            "senha": "Etiam",
+            "pontos": 48
+        },
+        {
+            "id": 28,
+            "nome": "Derek Wolf",
+            "senha": "fermentum fermentum",
+            "pontos": 145
+        },
+        {
+            "id": 29,
+            "nome": "Yen Nguyen",
+            "senha": "et ipsum",
+            "pontos": 443
+        },
+        {
+            "id": 30,
+            "nome": "Karleigh Mercer",
+            "senha": "nisi.",
+            "pontos": 780
+        },
+        {
+            "id": 31,
+            "nome": "Genevieve Spencer",
+            "senha": "hendrerit",
+            "pontos": 183
+        },
+        {
+            "id": 32,
+            "nome": "Erica Martinez",
+            "senha": "nec",
+            "pontos": 789
+        },
+        {
+            "id": 33,
+            "nome": "Candice Jarvis",
+            "senha": "Sed",
+            "pontos": 159
+        },
+        {
+            "id": 34,
+            "nome": "Calvin Atkins",
+            "senha": "mi",
+            "pontos": 447
+        },
+        {
+            "id": 35,
+            "nome": "Devin Wall",
+            "senha": "Cras eget",
+            "pontos": 214
+        }
+    ]
+}
