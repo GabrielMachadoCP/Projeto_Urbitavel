@@ -2,213 +2,248 @@
     "usuarios": [
         {
             "id": 1,
-            "nome": "Ana Laura Juarez Zerlin",
-            "senha": "98065",
-            "pontos": 933
+            "name": "Ana Laura Juarez Zerlin",
+            "email": "ana@fiap.com.br",
+            "senha": "RM98065",
+            "pontos": 673
         },
         {
             "id": 2,
-            "nome": "Bianca Carvalho Dancs Firsoff",
-            "senha": "551645",
-            "pontos": 328
+            "name": "Bianca Carvalho Dancs Firsoff",
+            "email": "bianca@fiap.com.br",
+            "senha": "RM551645",
+            "pontos": 640
         },
         {
             "id": 3,
-            "nome": "Gabriel Machado Carrara Pimentel",
-            "senha": "99880",
-            "pontos": 555
+            "name": "Gabriel Machado Carrara Pimentel",
+            "email": "gabriel@fiap.com.br",
+            "senha": "RM99880",
+            "pontos": 263
         },
         {
             "id": 4,
-            "nome": "Hellen Ramos Gonçalves Assis",
-            "senha": "98284",
-            "pontos": 612
+            "name": "Hellen Ramos Gonçalves Assis",
+            "email": "hellen@fiap.com.br",
+            "senha": "RM98284",
+            "pontos": 508
         },
         {
             "id": 5,
-            "nome": "Nicholas Marquez",
-            "senha": "eu,",
-            "pontos": 603
+            "name": "Ursula Sloan",
+            "email": "convallis.dolor.quisque@outlook.org",
+            "senha": "HHX18XQJ3AK",
+            "pontos": 259
         },
         {
             "id": 6,
-            "nome": "Candice Yates",
-            "senha": "euismod mauris",
-            "pontos": 309
+            "name": "Nasim Carroll",
+            "email": "nulla.integer.urna@yahoo.couk",
+            "senha": "NTB48SVC8OU",
+            "pontos": 915
         },
         {
             "id": 7,
-            "nome": "Ina Sims",
-            "senha": "ipsum.",
-            "pontos": 84
+            "name": "Addison Rose",
+            "email": "donec@yahoo.edu",
+            "senha": "XAP63UFO8BC",
+            "pontos": 643
         },
         {
             "id": 8,
-            "nome": "Nathan Ramos",
-            "senha": "massa. Integer",
-            "pontos": 887
+            "name": "Fuller Morton",
+            "email": "interdum.sed.auctor@protonmail.net",
+            "senha": "AOJ85PAY7BC",
+            "pontos": 577
         },
         {
             "id": 9,
-            "nome": "Joshua Riggs",
-            "senha": "neque",
-            "pontos": 639
+            "name": "Janna Thomas",
+            "email": "ante@google.net",
+            "senha": "HHF88WAO0TM",
+            "pontos": 885
         },
         {
             "id": 10,
-            "nome": "Tad Nicholson",
-            "senha": "diam lorem,",
-            "pontos": 49
+            "name": "Wang Hughes",
+            "email": "sociis@hotmail.net",
+            "senha": "LGB16COM9AJ",
+            "pontos": 707
         },
         {
             "id": 11,
-            "nome": "Kameko Kirk",
-            "senha": "urna",
-            "pontos": 104
+            "name": "Anika Mills",
+            "email": "tellus@yahoo.com",
+            "senha": "QCA13KYL7OO",
+            "pontos": 929
         },
         {
             "id": 12,
-            "nome": "Jescie Hudson",
-            "senha": "mi",
-            "pontos": 777
+            "name": "Samuel Gay",
+            "email": "pharetra.felis.eget@protonmail.edu",
+            "senha": "GWF64ZSF7DS",
+            "pontos": 74
         },
         {
             "id": 13,
-            "nome": "Steven Luna",
-            "senha": "molestie in,",
-            "pontos": 766
+            "name": "Lionel Greer",
+            "email": "taciti@google.org",
+            "senha": "DWN71MIT4WF",
+            "pontos": 101
         },
         {
             "id": 14,
-            "nome": "Ariel Fuentes",
-            "senha": "Aliquam erat",
-            "pontos": 986
+            "name": "Noel Dunn",
+            "email": "lorem.lorem@google.couk",
+            "senha": "KYL33JUA9QN",
+            "pontos": 861
         },
         {
             "id": 15,
-            "nome": "Oleg Mitchell",
-            "senha": "diam luctus",
-            "pontos": 464
+            "name": "Lyle Craig",
+            "email": "et.arcu.imperdiet@google.edu",
+            "senha": "WZM41VBN0UV",
+            "pontos": 467
         },
         {
             "id": 16,
-            "nome": "Britanni Burt",
-            "senha": "amet,",
-            "pontos": 73
+            "name": "Alden Haley",
+            "email": "pellentesque@google.org",
+            "senha": "MHH14YTE8EU",
+            "pontos": 422
         },
         {
             "id": 17,
-            "nome": "Beau Shepard",
-            "senha": "dui, in",
-            "pontos": 609
+            "name": "Jared Buck",
+            "email": "pellentesque.ut.ipsum@google.org",
+            "senha": "YYA42JNJ7OJ",
+            "pontos": 268
         },
         {
             "id": 18,
-            "nome": "Francis Vazquez",
-            "senha": "ridiculus mus.",
-            "pontos": 29
+            "name": "Austin William",
+            "email": "a.sollicitudin.orci@outlook.couk",
+            "senha": "IFN17XGO8GT",
+            "pontos": 587
         },
         {
             "id": 19,
-            "nome": "Cheyenne Mccormick",
-            "senha": "penatibus et",
-            "pontos": 477
+            "name": "Barry Christensen",
+            "email": "dolor.quam@protonmail.net",
+            "senha": "QXI14PFH4DD",
+            "pontos": 521
         },
         {
             "id": 20,
-            "nome": "Caryn Kaufman",
-            "senha": "cursus",
-            "pontos": 592
+            "name": "Griffith Rosa",
+            "email": "sollicitudin.adipiscing.ligula@icloud.edu",
+            "senha": "XIU82PDM8AJ",
+            "pontos": 540
         },
         {
             "id": 21,
-            "nome": "Aurora Todd",
-            "senha": "nibh",
-            "pontos": 767
+            "name": "Devin Gillespie",
+            "email": "etiam.imperdiet@yahoo.net",
+            "senha": "NLH29COG8PF",
+            "pontos": 372
         },
         {
             "id": 22,
-            "nome": "Anjolie Flores",
-            "senha": "eu tellus",
-            "pontos": 716
+            "name": "Tobias Porter",
+            "email": "praesent.luctus@aol.ca",
+            "senha": "TMH10XXL3KQ",
+            "pontos": 306
         },
         {
             "id": 23,
-            "nome": "Kasper Wolf",
-            "senha": "risus. Donec",
-            "pontos": 243
+            "name": "Emerald Hayes",
+            "email": "penatibus.et@icloud.couk",
+            "senha": "YLJ24WUG5ES",
+            "pontos": 482
         },
         {
             "id": 24,
-            "nome": "Harding Battle",
-            "senha": "Cras",
-            "pontos": 117
+            "name": "Irma Bowen",
+            "email": "nam@outlook.org",
+            "senha": "LYN48KKS9TB",
+            "pontos": 260
         },
         {
             "id": 25,
-            "nome": "Kieran Preston",
-            "senha": "nisl sem,",
-            "pontos": 473
+            "name": "Kimberley Atkinson",
+            "email": "sociis.natoque.penatibus@outlook.net",
+            "senha": "KJV93DDC4FW",
+            "pontos": 52
         },
         {
             "id": 26,
-            "nome": "Jordan Soto",
-            "senha": "est, congue",
-            "pontos": 834
+            "name": "Jocelyn Lee",
+            "email": "commodo.hendrerit@yahoo.couk",
+            "senha": "FIV31LOF3BA",
+            "pontos": 854
         },
         {
             "id": 27,
-            "nome": "Elaine Dudley",
-            "senha": "Etiam",
-            "pontos": 48
+            "name": "Lacey Bryant",
+            "email": "fringilla@hotmail.net",
+            "senha": "XNB14JVF5ZS",
+            "pontos": 155
         },
         {
             "id": 28,
-            "nome": "Derek Wolf",
-            "senha": "fermentum fermentum",
-            "pontos": 145
+            "name": "Audrey Burch",
+            "email": "nibh@icloud.com",
+            "senha": "HCL27HMP5WU",
+            "pontos": 458
         },
         {
             "id": 29,
-            "nome": "Yen Nguyen",
-            "senha": "et ipsum",
-            "pontos": 443
+            "name": "Nathaniel Estes",
+            "email": "natoque.penatibus@yahoo.com",
+            "senha": "GAP09TEW5BG",
+            "pontos": 189
         },
         {
             "id": 30,
-            "nome": "Karleigh Mercer",
-            "senha": "nisi.",
-            "pontos": 780
+            "name": "Nyssa Benjamin",
+            "email": "tincidunt.adipiscing@outlook.couk",
+            "senha": "IUR18LIV4NB",
+            "pontos": 316
         },
         {
             "id": 31,
-            "nome": "Genevieve Spencer",
-            "senha": "hendrerit",
-            "pontos": 183
+            "name": "Dieter Barry",
+            "email": "mollis.lectus@aol.couk",
+            "senha": "JXT77JXD6JK",
+            "pontos": 5
         },
         {
             "id": 32,
-            "nome": "Erica Martinez",
-            "senha": "nec",
-            "pontos": 789
+            "name": "Jason Perkins",
+            "email": "a.malesuada@google.ca",
+            "senha": "EGM83JRE5JL",
+            "pontos": 618
         },
         {
             "id": 33,
-            "nome": "Candice Jarvis",
-            "senha": "Sed",
-            "pontos": 159
+            "name": "Virginia Workman",
+            "email": "magna.tellus@aol.org",
+            "senha": "GXD63UHJ8DH",
+            "pontos": 810
         },
         {
             "id": 34,
-            "nome": "Calvin Atkins",
-            "senha": "mi",
-            "pontos": 447
+            "name": "Candace Valencia",
+            "email": "ante.blandit@aol.ca",
+            "senha": "SQD84HGG1TS",
+            "pontos": 60
         },
         {
             "id": 35,
-            "nome": "Devin Wall",
-            "senha": "Cras eget",
-            "pontos": 214
+            "name": "Aline Rosales",
+            "email": "ornare.egestas.ligula@google.com",
+            "senha": "GCS24KQT9NE",
+            "pontos": 888
         }
     ]
 }

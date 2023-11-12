@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Epilogue&display=swap');
 
-.login{
+.logiN{
   background-color: #F4F9F3;
   border-radius: 25px;
   padding: 50px 30px 50px 30px;
@@ -30,19 +30,6 @@
     color: black;
   }
 
-  .espacamento{
-    line-height: 20px;
-    text-align: center;
-  }
-
-  .cadastro{
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  align-content: center;
-  }
 }
 
 @media screen and (max-width: 1200px){
