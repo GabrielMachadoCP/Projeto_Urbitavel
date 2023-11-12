@@ -35,7 +35,7 @@ function FormRodape() {
       setTimeout(() => {
         clearEmail();
         setEmailSent(false);
-      }, 5000);
+      }, 3000);
     } else {
       setError('Endereço de e-mail inválido. Por favor, insira um e-mail válido.');
     }
