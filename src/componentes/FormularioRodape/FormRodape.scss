@@ -1,0 +1,60 @@
+/* FormRodape.css */
+
+.form-rodape-container {
+  min-height: 315px;
+  background-image: url(../imagens/rodapé.jpg);
+  margin: 0;
+  padding: 15px 0px 15px 40px;
+  border-top: 15px solid gray;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  h2{
+    font-family: Epilogue;
+    text-align: start;
+  }
+
+  p{
+    font: black;
+    font-family: Epilogue;
+    text-align: start;
+  }
+
+  #emailInput{
+    width: 300px;
+    height: 20px;
+    border: 1px solid black;
+  }
+}
+  
+  .submit-button {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-right: auto;
+    border: 1px solid rgb(116, 116, 255);
+    padding: 5px 30px 5px 30px;
+    margin-top: 5px;
+    border-radius: 5px;
+    color: rgb(116, 116, 255);
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .submit-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .error {
+    color: #ff0000;
+    font-size: 14px;
+    margin-top: 10px;
+  }
+  
+  .success {
+    color: #008000;
+    font-size: 16px;
+    margin-top: 10px;
+  }
+  

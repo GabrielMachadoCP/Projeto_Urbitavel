@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue&display=swap');
+
+.login{
+  background-color: #F4F9F3;
+  border-radius: 25px;
+  padding: 50px 30px 50px 30px;
+  margin: 200px 25% 50px 25%;
+  box-shadow: -1px 2px 2px grey;
+  text-align: center;
+
+  h2{
+    text-align: center;
+    color: #638363;
+  }
+
+  form fieldset {
+    line-height: 30px;
+    border: none;
+
+    input{
+      width: 300px;
+      height: 25px;
+      background-color: #D9D9D9;
+      border: 1px solid black;
+      border-radius: 5px;
+    }
+  }
+
+  div a{
+    color: black;
+  }
+
+  .espacamento{
+    line-height: 20px;
+    text-align: center;
+  }
+
+  .cadastro{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  }
+}
+
+@media screen and (max-width: 1200px){
+  .login{
+    margin-top: 200px;
+  }
+}
+
+@media screen and (max-width: 859px){
+  .login{
+    margin-top: 180px;
+
+    form fieldset{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+
+      input{
+        width: 80%;
+      }
+    }
+  }
+}
