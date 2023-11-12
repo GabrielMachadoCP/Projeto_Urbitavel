@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@100&display=swap');
+
+.comunicacao{
+  width: 50%;
+  padding: 40px;
+  margin: auto;
+  margin-top: 200px;
+  margin-bottom: 100px;
+  border: 1px solid black;
+  border-radius: 5px;
+  background-color: #F4F9F3;
+  text-align: center;
+  box-shadow: -1px 2px 2px grey;
+  align-self: center;
+
+  label{
+    display: flex;
+  }
+  
+  .infos{
+  display: flex;
+  margin-left: 24.4%;
+  }
+  
+  .c-nome{
+  width: 50%;
+  height: 22px;
+  border: 1px solid black;
+  border-radius: 3px;
+  }
+
+  .c-email2{
+  width: 50%;
+  height: 22px;
+  border: 1px solid black;
+  border-radius: 3px;
+  }
+
+  .c-duvida{
+  width: 100%;
+  height: 300px;
+  border: 1px solid black;
+  border-radius: 3px;
+  }
+
+  .btncomunicacao{
+    padding: 10px 15px 10px 15px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: rgb(189, 189, 189);
+  }
+}
+
+@media screen and (max-width: 919){
+  .comunicacao{
+    width: 50%;
+    padding: 0px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .c-nome{
+    margin: 0px;
+    width: 90%;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+  .c-email2{
+    margin: 0px;
+    width: 90%;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+}

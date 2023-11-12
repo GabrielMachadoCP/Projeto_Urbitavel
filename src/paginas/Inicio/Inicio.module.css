@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue&display=swap');
+
+.containerApresentacao{
+    background-color: #F4F9F3;
+    border-radius: 25px;
+    padding: 20px;
+    margin-top: 200px;
+    margin-bottom: 50px;
+    margin: 10%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    text-align: center;
+    box-shadow: -1px 2px 2px grey;
+}
+
+.foto{
+    width: 45%;
+    min-height: 100px;
+}
+
+.foto img{
+    width: 100%;
+    padding: 0px 5% 0px 5%;
+}
+
+.explicacao{
+    padding: 10px 5% 5px 5%;
+    display: inline-block;
+    width: 30%;
+    height: 100%;
+}
+
+.explicacao p{
+    text-align: justify;
+    padding-top: 5%;
+}
+
+.explicacao h2{
+    font-size: 40px;
+    font-weight: bold;  
+    color: #638363;
+    padding-top: 5px;
+    padding-bottom: 10px;
+}
+
+.intro{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 0px 15% 10% 15%;
+}
+
+.intro h2{
+    font-size: 30px;
+    color: rgb(39, 39, 39);
+}
+
+.intro h3{
+    color: rgb(63, 62, 62);
+}
+
+.intro p{
+    text-align: justify;
+    padding-left: 25%;
+    padding-right: 25%;
+}
+
+
+@media screen  and (max-width: 1000px){
+    .containerApresentacao{
+        flex-direction: column;
+    }
+
+    .explicacao{
+        width: 90%;
+        padding-bottom: 20px;
+    }
+
+    .intro h2{
+        text-align: center;
+    }
+
+    .intro p{
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+}
+
+@media screen  and (max-width: 449px){
+    .intro h3{
+        text-align: center;
+    }
+
+    .intro p{
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+}

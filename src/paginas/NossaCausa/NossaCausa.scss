@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue&display=swap');
+
+.nossa_causa{
+    background-color: #F4F9F3;
+    border-radius: 25px;
+    padding: 4% 12% 4% 12%;
+    margin: 200px 25% 50px 25%;
+    box-shadow: -1px 2px 2px grey;
+
+    p{
+        font-size: 20px;
+        text-align: justify;
+        line-height: 125%;
+        word-spacing: 103%
+    }
+}
+
+.divTopicos{
+    margin: 10px 10% 5% 10%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: space-evenly;
+
+    .topicos{
+        background-color: #D9D9D9;
+        display: flex;
+        align-items: center;
+        align-content: center;
+        width: 20%;
+        height: 60px;
+        padding: 2% 5% 2% 5%;
+        margin: 1% 1% 1% 1%;
+
+        p{
+            text-align: left;
+        }
+
+        .arrumadinha{
+            padding-left: 20px;
+        }
+
+        img{
+            width: 40px;
+            height: 40px;
+            padding-right: 15px;
+        }
+    }
+}
+
+.nossaCausa{
+    font-weight: bold;
+}
+
+.causa{
+    margin: 5% 30% 5% 30%;
+}
+
+.causa p{
+    text-align: justify;
+    line-height: 125%;
+}
+
+@media screen and (max-width: 919px){
+    .nossa_causa{
+        margin: 100px 20% 50px 20%;
+    }
+}
+
+@media screen and (max-width: 885px){
+    .topicos{
+        flex-direction: column;
+        flex-wrap: wrap;
+        min-height: 105px;
+        padding-top: 30px;
+        justify-content: space-around;
+        justify-items: center;
+
+        p{
+            padding-top: 5px;
+            text-align: center;
+        }
+    }
+}
+
+@media screen and (max-width: 574px){
+    .divTopicos{
+        margin: 10px 5% 5% 5%;
+        flex-direction: column;
+
+        .topicos{
+            flex-direction: row;
+            flex-wrap: nowrap;
+            width: 70%;
+            height: 60px;
+            padding: 2% 6% 2% 6%;
+        }
+    }
+
+    .causa{
+        margin: 5% 10% 5% 10%;
+    }
+}
