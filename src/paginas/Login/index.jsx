@@ -57,11 +57,20 @@ export default function Login() {
             break;
           }
         }
+        // Após a validação do login com sucesso e antes do redirecionamento para a página de sucesso
+        if (user) {
+            // Armazena os dados do usuário no localStorage
+            localStorage.setItem('usuario', JSON.stringify(user));
+            setMsgstatus("Login realizado com SUCESSO!!");
+            setTimeout(() => {
+                window.location = "/sucesso";
+            }, 5000);
+        }
         if (user) {
           //Redirecionando o usuário para HOME!
           setMsgstatus("Login realizado com SUCESSO!!");
           setTimeout(()=>{
-              window.location = "/sucessoLogin";
+              window.location = "/sucesso";
             },5000);
           
         } else {
@@ -104,7 +113,6 @@ export default function Login() {
       <div>
         <form onSubmit={handleSubmit}>
           <fieldset>
-            <legend>Dados de Acesso:</legend>
             <div>
               <label htmlFor="idEmail">Email:</label>
               <input

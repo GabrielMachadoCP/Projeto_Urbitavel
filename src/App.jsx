@@ -10,6 +10,7 @@ import Rodape from "./componentes/Rodape";
 import FormRodape from "./componentes/FormularioRodape";
 import Menu from "./componentes/Menu";
 import './App.scss'
+import Sucesso from "./paginas/Sucesso/Sucesso";
 // import { Banner } from "./componentes/Banner/Banner";
 
 console.log(window.location);
@@ -28,6 +29,7 @@ function App() {
             <Route path="/contato" element={<Contato />}/>
             <Route path="/login" element={<Login />}/>
             <Route path="/apoie" element={<Apoie />}/>
+            <Route path="/sucesso" element={<Sucesso/>}/>
             <Route path="*" element={<div>Página não encontrada</div>}/>
           </Routes>
       </BrowserRouter>
