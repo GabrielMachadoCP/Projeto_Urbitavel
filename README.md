@@ -1,8 +1,14 @@
-# React + Vite
+# Urbitável
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Equipe Desenvolvedora:
 
-Currently, two official plugins are available:
+- Ana Laura Juarez Zerlin           - 	RM 98065  -  ESPG
+- Bianca Carvalho Dancs Firsoff     - 	RM 551645 -  ESPG
+- Gabriel Machado Carrara Pimentel  - 	RM 99880  -  ESPG
+- Hellen Ramos Gonçalves Assis      - 	RM 98284  -  ESPG
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+
+Usuários e senhas para cadastro: 
+
+
+Link para o o projeto:

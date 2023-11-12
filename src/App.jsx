@@ -1,3 +1,7 @@
+
+
+
+function App() {
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Inicio from "./paginas/Inicio";
 import SobreMim from "./paginas/SobreMim";
@@ -16,6 +20,12 @@ console.log(window.location);
 
 function App() {
   return (
+
+    <>
+      
+    </>
+  )
+
     <div className="App">
       <BrowserRouter>
           <Menu />
@@ -37,6 +47,7 @@ function App() {
     </div>
   
   );
+
 }
 
 export default App;
