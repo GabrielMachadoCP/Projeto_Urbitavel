@@ -10,7 +10,7 @@ import Rodape from "./componentes/Rodape";
 import FormRodape from "./componentes/FormularioRodape";
 import Menu from "./componentes/Menu";
 import './App.scss'
-import Sucesso from "./paginas/Sucesso/Sucesso";
+import Sucesso from "./paginas/Sucesso/Sucesso.jsx";
 // import { Banner } from "./componentes/Banner/Banner";
 
 console.log(window.location);
