@@ -19,7 +19,7 @@
   
   .infos{
   display: flex;
-  margin-left: 24.4%;
+  justify-content: center;
   }
   
   .c-nome{
@@ -57,19 +57,19 @@
     padding: 0px;
     margin-left: 10px;
     margin-right: 10px;
-  }
-
-  .c-nome{
+  
+    .c-nome{
     margin: 0px;
     width: 90%;
     padding-left: 0px;
     padding-right: 0px;
-  }
+    }
 
   .c-email2{
     margin: 0px;
     width: 90%;
     padding-left: 0px;
     padding-right: 0px;
+    }
   }
 }
