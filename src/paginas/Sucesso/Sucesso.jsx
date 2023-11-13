@@ -37,9 +37,12 @@ const Sucesso = () => {
 
     return (
         <div className="sucesso">
-            <h2>Bem Vindo, {userDetails.name}!</h2>
-            <p>Você possui {userDetails.pontos} pontos.</p>
-            <button onClick={resetPoints}>Retirar Pontos</button>
+            <h2>Bem-vinde, {userDetails.name}!</h2> <br/><br/>
+
+            <h3>Você possui: {userDetails.pontos} pontos.</h3> <br/><br/>
+
+            <button onClick={resetPoints} className="btnRetirada">Retirar Pontos</button> <br/>
+
             {pointsReset && <p>Pontos retirados com sucesso!</p>}
         </div>
     );
