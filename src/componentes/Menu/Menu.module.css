@@ -111,17 +111,12 @@ nav{
 
     nav{
         justify-content: center;
-        flex-direction: column;
     }
 }
 
 @media screen and (max-width: 950px){
     header{
         width: 100%;
-    }
-
-    #notificacaoEmail{
-        background-repeat: no-repeat;
     }
 }
 
