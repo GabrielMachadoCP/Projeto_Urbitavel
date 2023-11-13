@@ -8,11 +8,18 @@ Equipe Desenvolvedora:
 - Hellen Ramos Gonçalves Assis      - 	RM 98284  -  ESPG
 
 
-Usuários e senhas para cadastro: 
+# Usuários e senhas para cadastro: 
 
-# Login:                      Senha:
+# Login:
 
-- ana@fiap.com.br             RM98065
-- bianca@fiap.com.br          RM551645
-- gabriel@fiap.com.br         RM99880
-- hellen@fiap.com.br          RM98284
+- ana@fiap.com.br             
+- bianca@fiap.com.br          
+- gabriel@fiap.com.br         
+- hellen@fiap.com.br          
+
+# Senha:
+
+- RM98065
+- RM551645
+- RM99880
+- RM98284
