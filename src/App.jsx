@@ -21,6 +21,7 @@ function App() {
       <BrowserRouter>
           <Menu />
 
+          {/* Criando rotas */}
           <Routes>
             <Route path="/" element={<Inicio />}/>
             <Route path="/sobre" element={<SobreMim />}/>
