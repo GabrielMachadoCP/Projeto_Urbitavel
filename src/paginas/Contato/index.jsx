@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import './Contato.scss'
 
+// criando uma função para armazenar o objeto "formData"
 function Contato() {
   const [formData, setFormData] = useState({
     nome: '',
