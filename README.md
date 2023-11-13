@@ -10,9 +10,9 @@ Equipe Desenvolvedora:
 
 Usuários e senhas para cadastro: 
 
-Emails:                     Senhas:
+# Login:                      Senha:
 
-ana@fiap.com.br             RM98065
-bianca@fiap.com.br          RM551645
-gabriel@fiap.com.br         RM99880
-hellen@fiap.com.br          RM98284
+- ana@fiap.com.br             RM98065
+- bianca@fiap.com.br          RM551645
+- gabriel@fiap.com.br         RM99880
+- hellen@fiap.com.br          RM98284
