@@ -50,18 +50,22 @@ function FormRodape() {
 
   return (
     <div className="form-rodape-container">
-      <h2>Cadastre-se abaixo!</h2>
-      <p>Receba alertas de ações e novos conteúdos no seu e-mail.</p>
+      <h2>Cadastre-se abaixo!</h2> <br/>
+
+      <p>Receba alertas de ações e novos conteúdos no seu e-mail.</p> <br/>
+
       <input
         type="email"
-        id="emailInput"
+        className="emailInput"
         value={email}
         onChange={handleEmailChange}
         placeholder="exemplo@email.com"
-      />
+      /> <br/>
+
       <button onClick={handleButtonClick} className="submit-button">
         Enviar E-mail
       </button>
+
       {error && <p className="error">{error}</p>}
       {emailSent && <p className="success">E-mail enviado!</p>}
     </div>

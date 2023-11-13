@@ -9,6 +9,7 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
+  background-size: auto;
 
   h2{
     font-family: Epilogue;
@@ -21,7 +22,7 @@
     text-align: start;
   }
 
-  #emailInput{
+  .emailInput{
     width: 300px;
     height: 20px;
     border: 1px solid black;
@@ -57,4 +58,23 @@
     font-size: 16px;
     margin-top: 10px;
   }
-  
+
+@media screen and (max-width: 950px){
+  .form-rodape-container{
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    min-height: 250px;
+  }
+}
+
+@media screen and (max-width: 379px){
+  .form-rodape-container{
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    min-height: 250px;
+
+    .emailInput{
+      width: 200px;
+    }
+  }
+}
