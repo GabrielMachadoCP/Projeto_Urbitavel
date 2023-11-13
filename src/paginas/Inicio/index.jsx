@@ -3,7 +3,7 @@ import styles from './Inicio.module.css'
 
 export default function Inicio() {
     return (
-        <main>
+        <>
             <div className={styles.containerApresentacao}>
                 <div className={styles.explicacao}>
                     <h2>URBITÁVEL</h2>
@@ -27,28 +27,27 @@ export default function Inicio() {
             </div>
 
             <div className={styles.intro}>
-                <h2>Lutamos pela saúde do planeta que habitamos</h2>
+                <h2>Lutamos pela saúde do planeta que habitamos</h2> <br/>
 
                 <h3>Juntos, podemos mudar o mundo!</h3> <br/>
                     
                 <p>
                     Se você quer defender o planeta e se somar às pessoas que atuam para proteger o meio ambiente, aqui é o seu lugar!
-                </p>
+                </p> <br/>
 
                 <p>
                     Nós acreditamos que um mundo mais verde, pacífico e justo para todas as formas de vida é possível, e não poupamos esforços para alcançá-lo.
-                </p>
+                </p> <br/>
 
                 <p>
                     Temos décadas de ativismo que muito nos ensinou e que nos mostra que ainda temos muito o que fazer.
-                </p>
+                </p> <br/>
                 
                 <Botao>
                     Saiba quem somos
                 </Botao>
                 {/* <a href="/sobre" className={styles.btnSaibamais}>Saiba quem somos</a> */}
             </div>
-
-        </main>
+        </>
     )
 }

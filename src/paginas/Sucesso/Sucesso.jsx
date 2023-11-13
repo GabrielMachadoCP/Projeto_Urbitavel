@@ -15,19 +15,19 @@ const Sucesso = () => {
 
     const resetPoints = () => {
         fetch(`http://localhost:5000/usuarios/${userDetails.id}`, {
-            method: 'PATCH', // Utilize PATCH para atualizar apenas os pontos
+            method: 'PATCH',
             headers: {
                 'Content-Type': 'application/json',
             },
-            body: JSON.stringify({ pontos: 0 }), // Atualiza apenas os pontos
+            body: JSON.stringify({ pontos: 0 }),
         })
             .then((response) => {
                 if (response.ok) {
                     setPointsReset(true);
                     setUserDetails((prevUserDetails) => ({ ...prevUserDetails, pontos: 0 }));
                     setTimeout(() => {
-                        window.location = "/login"; // Redireciona para a página de login após 5 segundos
-                    }, 5000);
+                        window.location = "/login";
+                    }, 4000);
                 }
             })
             .catch((error) => {
@@ -37,9 +37,12 @@ const Sucesso = () => {
 
     return (
         <div className="sucesso">
-            <h2>Bem Vindo, {userDetails.name}!</h2>
-            <p>Você possui {userDetails.pontos} pontos.</p>
-            <button onClick={resetPoints}>Retirar Pontos</button>
+            <h2>Bem-vinde, {userDetails.name}!</h2> <br/><br/>
+
+            <h3>Você possui: {userDetails.pontos} pontos.</h3> <br/><br/>
+
+            <button onClick={resetPoints} className="btnRetirada">Retirar Pontos</button> <br/>
+
             {pointsReset && <p>Pontos retirados com sucesso!</p>}
         </div>
     );

@@ -5,13 +5,13 @@ export default function Apoie() {
     return (
         <main>
             <div className="apoio">
-                <p className="titulo">Doe agora mesmo.</p> <br />
+                <p className="titulo">Doe agora mesmo.</p> <br/>
 
-                <p>Precisamos de ajuda para proteger a terra</p>
+                <p>Precisamos de ajuda para proteger a terra</p> <br/><br/>
 
                 <img src="imagens/lixos_brancos.jpg" /> <br/><br/>
 
-                <p>Qualquer valor é bem-vindo!</p>
+                <p>Qualquer valor é bem-vindo!</p> <br/><br/>
 
                 <p>Insira o valor que você gostaria de doar:</p> <br/>
 

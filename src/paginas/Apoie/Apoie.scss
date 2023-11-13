@@ -20,9 +20,10 @@
         height: 200px;
     }
 
-    .apoio form{
+    form{
         display: flex;
         flex-direction: column;
+        justify-content: center;
         align-items: center;
     }
 
@@ -30,7 +31,7 @@
         border: none;
     }
 
-    .apoio form fieldset input{
+    form fieldset input{
         width: 200px;
         height: 80px;
         font-size: 50px;
@@ -41,14 +42,21 @@
         background-color: #D9D9D9;
         padding: 10px 10px 10px 10px;
         border-radius: 25px;
-        border: 2px solid #638363;
+        border: 2px solid #638363
     }
 
     .btnDoacao{
-        background-color: #D9D9D9;
+        background-color: #638363;
         padding: 13px 18px 13px 18px;
+        border: 1px solid black;
         border-radius: 20px;
         font-weight: bold;
+        align-self: center;
+    }
+
+    .btnDoacao:hover {
+        background-color: #D9D9D9;
+        border-radius: 20px;
     }
 
 }
@@ -66,7 +74,6 @@
 }
 
 @media screen and (max-width: 987px){
-
     .apoio p{
         text-align: center;
     }

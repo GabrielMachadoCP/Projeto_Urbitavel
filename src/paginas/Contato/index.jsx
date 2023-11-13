@@ -18,7 +18,6 @@ function Contato() {
 
   const handleSubmit = (event) => {
     event.preventDefault();
-    // Aqui você pode armazenar os dados localmente (por exemplo, em localStorage)
     localStorage.setItem('formData', JSON.stringify(formData));
     alert('Dados armazenados com sucesso!');
   };
@@ -26,12 +25,12 @@ function Contato() {
   return (
     <div className='comunicacao'>
       <form onSubmit={handleSubmit}>
-        <h2 className="tituloComunic">Canal de Comunicação</h2>
+        <h2 className="tituloComunic">Canal de Comunicação</h2> <br/>
 
         <p>
             Entre em contato com nós via e-mail. <br/>
             Responderemos o mais rápido possível!
-        </p>
+        </p> <br/><br/>
 
         <label className="infos">Nome:</label>
         <input
@@ -40,7 +39,7 @@ function Contato() {
           value={formData.nome}
           onChange={handleInputChange}
           className="c-nome"
-        /> <br/><br/>
+        /> <br/><br/><br/>
 
         <label className="infos">E-mail:</label>
         <input

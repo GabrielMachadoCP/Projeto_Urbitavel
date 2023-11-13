@@ -1,3 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
 .container{
     display: grid;
     grid-template-columns: repeat(auto-fit, 1fr);
@@ -28,14 +36,11 @@ header {
     width: 100%;
     display: flex;
     align-items: center;
+    padding-left: 10px;
 }
 
 .logo img{
-    padding: 5px 10px 5px 10px;
-}
-
-.logo h1{
-    padding: 5px 10px 5px 10px;
+    padding: 0px 10px 0px 10px;
 }
 
 nav{
@@ -49,7 +54,6 @@ nav{
     justify-content: flex-end;
     align-items: center;
     align-content: space-evenly;
-    width: 100%;
 }
 
 .ul {
@@ -71,14 +75,14 @@ nav{
 
 .ul .link a:hover {
     background-color: #ffffff44;
-    border-radius: 7px;
+    border-radius: 10px;
 }
-
+/* 
 .link {
     flex-direction: column;
     flex-wrap: nowrap;
     justify-content: space-evenly;
-}
+} */
 
 .link a {
     display: flex;
@@ -89,62 +93,45 @@ nav{
 
 }
 
-.link a:hover {
-    background-color: #476147;
-}
-
 .simbApoie {
     background-color: #1c3019;
     border-radius: 20px;
 }
 
-.simbApoie:hover {
+.ul .link .simbApoie:hover {
     background-color: #ffffff44;
     border-radius: 20px;
 }
 
-
-/* .link a{
-    list-style: none;
-    text-align: center;
-    display: inline-block;
-    color: beige;
-    padding: 10px 20px;
-    text-decoration: none;
-    font-size: 15px;
-
-    flex-direction: column;
-    flex-wrap: nowrap;
-    justify-content: space-evenly;
-
-    display: flex;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-}
-
-.link a:hover {
-    background-color: #ffffff44;
-    border-radius: 7px;
-} */
-
-/* .navegacao {
-    height: 112px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    column-gap: 3rem;
-}
-
-.link {
-    font-size: 1.25rem;
-    line-height: 1.5rem;
-    color: var(--cor-fonte-principal);
-}
-
-@media (max-width: 744px) {
-    .navegacao {
-        height: 72px;
+@media screen and (max-width: 1202px){
+    header{
+        flex-direction: column;
+        width: 100%;
     }
-} */
+
+    nav{
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 950px){
+    header{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 919px){
+    header{
+        width: 100%;
+    }
+
+    nav{
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 701px){
+    nav{
+        flex-direction: column;
+    }
+}
