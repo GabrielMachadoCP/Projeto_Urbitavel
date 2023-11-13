@@ -2,11 +2,11 @@
     text-decoration: none;
     border: 1px solid black;
     border-radius: 25px;
-    padding: 10px 15px 10px 15px;
+    padding: 11px 15px 10px 15px;
     color: black;
-    background-color: #638363;
+    background-color: #5b795b;
 }
 
 .botao:hover {
-    color: #95FFD4
+    color: #74e4b7
 }
